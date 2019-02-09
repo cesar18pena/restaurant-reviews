@@ -14,7 +14,7 @@ const cacheList = [
     './js/dbhelper.js',
     './js/main.js',
     './js/restaurant_info.js',
-    './js/sw_register.js',
+    './js/sw_cache_register.js',
     './img/1.jpg',
     './img/2.jpg',
     './img/3.jpg',
