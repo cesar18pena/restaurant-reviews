@@ -94,6 +94,11 @@ nav h1 a {
     display: inline;
 }
 
+/* Display list items side by side */
+#breadcrumb a {
+  display: inline;
+}
+
 /* Add a slash symbol (/) before/behind each list item */
 #breadcrumb li+li:before {
     padding: 8px;
@@ -126,6 +131,7 @@ nav h1 a {
   align-items: center;
   background-color: #3397DB;
   display: flex;
+  flex-wrap: wrap;
   height: auto;
   padding: 10px 0 3px;
   text-align: center;
@@ -186,7 +192,7 @@ nav h1 a {
   min-height: auto;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 1.2em;
@@ -298,7 +304,7 @@ nav h1 a {
   padding: 30px 40px 80px;
 }
 
-#reviews-container h2 {
+#reviews-container h3 {
   color: #f58500;
   font-size: 24pt;
   font-weight: 300;
